@@ -12,3 +12,8 @@ add_action( 'wp_head', 'favicon_link' );
 
 
 
+<<<<<<< Updated upstream
+=======
+
+
+>>>>>>> Stashed changes
