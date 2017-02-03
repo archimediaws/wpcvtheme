@@ -9,3 +9,5 @@ function favicon_link() {
 add_action( 'wp_head', 'favicon_link' );
 
 
+
+
