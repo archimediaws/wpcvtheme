@@ -2,9 +2,5 @@
 wp-config\.php
 
 wp-content/themes/wpcvtheme/wpcvtheme
-
-
-
-
-
 wp-content/dploy\.yaml
+wp-content/uploads/
