@@ -1,0 +1,17 @@
+## Version 1.0.1 (January 21, 2017)
+* Added WPML Compatibility.
+* Added all sample-layouts.
+* Added compatibility with "Menu Image" plugin.
+* Fixed Portfolio hover link.
+* Fixed left navigation in responsive view while resizing window.
+* Fixed left navigation submenu opening/closing behavior.
+* Fixed ".ico" mime-type issue.
+* Fixed logo height for layout-2 and layout-2.
+* Fixed notice warning.
+* Modified sample import process.
+* Fixed various formatting issues.
+* Updated bundled plugins.
+* Various other minor improvements and fixes.
+
+## Version 1.0.0 (December 17, 2016)
+* Initial release

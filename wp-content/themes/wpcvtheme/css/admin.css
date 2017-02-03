@@ -1,0 +1,49 @@
+.sm-welcome {
+  font-size: 15px;
+  margin: 25px 40px 0 20px;
+  max-width: 1050px;
+  position: relative;
+}
+.sm-welcome .notice,
+.sm-welcome .woocommerce-message {
+	display:none;
+}
+.sm-welcome h1 {
+	color: #32373c;
+	font-size: 2.8em;
+	font-weight: 400;
+	line-height: 1.2em;
+	margin: 0.2em 200px 0 0;
+	padding: 0;
+}
+.sm-welcome .sm-welcome-about,
+.sm-welcome .sm-welcome-content {
+	color: #555d66;
+	margin: 1em 200px 1em 0;
+	min-height: 60px;
+}
+.sm-welcome .sm-welcome-about {
+	font-size: 19px;
+	font-weight: 400;
+	line-height: 1.6em;
+}
+.sm-welcome .sm-welcome-content.important {
+	color: #f00;
+}
+.sm-welcome .wp-badge {
+	background-color: #07cb79;
+	background-image: url("../images/logo.png");
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+
+.redux-container .admin-demo-data-custom-notice {
+	position: relative;
+}
+.admin-demo-data-custom-notice-close {
+	line-height: 30px;
+	position: absolute;
+	right: 10px;
+	top: 0;
+}

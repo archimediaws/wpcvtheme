@@ -1,0 +1,6 @@
+## Version 1.0.1 (January 21, 2017)
+* Fixed invalid function name.
+* Typo fix.
+
+## Version 1.0.0 (December 18, 2016)
+* Initial Release

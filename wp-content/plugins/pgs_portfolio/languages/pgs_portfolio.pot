@@ -1,0 +1,219 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PGS Portfolio 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-12-06 15:16+0530\n"
+"PO-Revision-Date: 2016-09-09 18:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/acf\n"
+"X-Poedit-SearchPathExcluded-1: includes/redux-framework\n"
+
+#: pgs_portfolio.php:32 pgs_portfolio.php:34
+msgid "Portfolios"
+msgstr ""
+
+#: pgs_portfolio.php:33 pgs_portfolio.php:35
+msgid "Portfolio"
+msgstr ""
+
+#: pgs_portfolio.php:36
+msgid "Add New"
+msgstr ""
+
+#: pgs_portfolio.php:37
+msgid "Add New Portfolio"
+msgstr ""
+
+#: pgs_portfolio.php:38
+msgid "New Portfolio"
+msgstr ""
+
+#: pgs_portfolio.php:39
+msgid "Edit Portfolio"
+msgstr ""
+
+#: pgs_portfolio.php:40
+msgid "View Portfolio"
+msgstr ""
+
+#: pgs_portfolio.php:41
+msgid "All Portfolios"
+msgstr ""
+
+#: pgs_portfolio.php:42
+msgid "Search Portfolios"
+msgstr ""
+
+#: pgs_portfolio.php:43
+msgid "Parent Portfolios:"
+msgstr ""
+
+#: pgs_portfolio.php:44
+msgid "No portfolioss found."
+msgstr ""
+
+#: pgs_portfolio.php:45
+msgid "No portfolioss found in Trash."
+msgstr ""
+
+#: pgs_portfolio.php:50
+msgid "Description."
+msgstr ""
+
+#: pgs_portfolio.php:68
+msgid "Portfolio Categories"
+msgstr ""
+
+#: pgs_portfolio.php:69
+msgid "Portfolio Category"
+msgstr ""
+
+#: pgs_portfolio.php:70
+msgid "Search portfolio Categories"
+msgstr ""
+
+#: pgs_portfolio.php:71
+msgid "Popular portfolio Categories"
+msgstr ""
+
+#: pgs_portfolio.php:72
+msgid "All portfolio Categories"
+msgstr ""
+
+#: pgs_portfolio.php:75
+msgid "Edit Category"
+msgstr ""
+
+#: pgs_portfolio.php:76
+msgid "Update Category"
+msgstr ""
+
+#: pgs_portfolio.php:77
+msgid "Add New Category"
+msgstr ""
+
+#: pgs_portfolio.php:78
+msgid "New Category Name"
+msgstr ""
+
+#: pgs_portfolio.php:79
+msgid "Separate categories with commas"
+msgstr ""
+
+#: pgs_portfolio.php:80
+msgid "Add or remove Categories"
+msgstr ""
+
+#: pgs_portfolio.php:81
+msgid "Choose from the most used Categories"
+msgstr ""
+
+#: pgs_portfolio.php:82
+msgid "No categories found."
+msgstr ""
+
+#: pgs_portfolio.php:83 pgs_portfolio.php:280
+msgid "Categories"
+msgstr ""
+
+#: pgs_portfolio.php:99
+msgid "Tags"
+msgstr ""
+
+#: pgs_portfolio.php:100
+msgid "Tag"
+msgstr ""
+
+#: pgs_portfolio.php:109
+msgid "Skills"
+msgstr ""
+
+#: pgs_portfolio.php:110
+msgid "Skill"
+msgstr ""
+
+#: pgs_portfolio.php:128
+msgid "Portfolio Details"
+msgstr ""
+
+#: pgs_portfolio.php:132
+msgid "Details"
+msgstr ""
+
+#: pgs_portfolio.php:148
+msgid "Release"
+msgstr ""
+
+#: pgs_portfolio.php:165
+msgid "Client Name"
+msgstr ""
+
+#: pgs_portfolio.php:186
+msgid "Project Url"
+msgstr ""
+
+#: pgs_portfolio.php:202
+msgid "Portfolio Image"
+msgstr ""
+
+#: pgs_portfolio.php:218
+msgid "Portfolio Images"
+msgstr ""
+
+#: pgs_portfolio.php:269 pgs_portfolio.php:270
+msgid "Potenza Portfolio"
+msgstr ""
+
+#: pgs_portfolio.php:275
+msgid "Potenza"
+msgstr ""
+
+#: pgs_portfolio.php:282
+msgid ""
+"Select categories to limit result from. you want to display all categories "
+"then uncheck all categories"
+msgstr ""
+
+#: pgs_portfolio.php:328
+msgid "All"
+msgstr ""
+
+#: pgs_portfolio.php:364
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: templates/single-portfolios.php:41
+msgid "Tags:"
+msgstr ""
+
+#: templates/single-portfolios.php:60
+msgid "Release:"
+msgstr ""
+
+#: templates/single-portfolios.php:64
+msgid "Client:"
+msgstr ""
+
+#: templates/single-portfolios.php:68
+msgid "Live Demo:"
+msgstr ""
+
+#: templates/single-portfolios.php:72
+msgid "Skills:"
+msgstr ""

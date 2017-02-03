@@ -1,0 +1,13 @@
+.pgs-redux-map-location-address {
+  width: 100%;
+}
+.pgs-redux-map-data-wrapper {
+	display: none;
+}
+.pgs-redux-map-data {
+  float: left;
+  width: 50%;
+}
+.pgs-redux-map-data-field {
+  width: 90%;
+}

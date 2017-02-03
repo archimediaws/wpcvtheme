@@ -1,0 +1,356 @@
+/*
+Theme Name: Sam Martin
+
+Adding support for language written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right_to_Left_Language_Support
+
+*/
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+#left-header {
+	right: 0;
+	left: inherit;
+}
+
+.content-scroller {
+	margin-right: 230px;
+	margin-left: inherit;
+}
+
+.blog-no-image .blog-image .blog-date {
+	left: inherit;
+	right: 30px;
+}
+
+.blog-block .blog-image .blog-date {
+	left: inherit;
+	right: 30px;
+}
+
+.rtl.single-post #primary #main .col-lg-9 {
+	float: right;
+}
+
+.rtl.single-post #primary #main .col-lg-3 {
+	float: left;
+}
+
+.navbar-nav>li>.dropdown-menu:before {
+	left: inherit;
+	right: 16px;
+}
+
+.contact-toggle {
+	right: inherit;
+	left: 70px;
+}
+
+.contact-toggle.show-contact {
+	right: inherit;
+	left: 12px;
+}
+
+.contact {
+	left: inherit;
+	right: 0;
+}
+
+.title-name-gray {
+	left: inherit;
+	right: 160px;
+}
+
+.feature_box .feature-icon {
+	float: right;
+	margin-left: 30px;
+	margin-right: inherit;
+}
+
+.skill .bar_container,
+.bar {
+	left: inherit;
+	right: 0;
+}
+
+.skill .pct {
+	left: 0px;
+	right: auto;
+}
+
+.skill-content blockquote {
+	border-right: 3px solid #07cb79;
+	border-left: inherit;
+	padding-left: inherit;
+	padding-right: 20px;
+}
+
+.chart-bar h3 {
+	padding-left: 0px;
+	padding-right: 20px;
+}
+
+ul.pgs_list.pgs_list_style_1 li i {
+	padding-right: inherit;
+	padding-left: 15px;
+}
+
+.testimonials-comment {
+	padding-left: inherit;
+	padding-right: 30px;
+}
+
+.contact .address ul li p {
+	padding-left: inherit;
+	padding-right: 20px;
+}
+
+.contact .social ul li {
+	padding-right: inherit;
+	padding-left: 30px;
+}
+
+.menu-footer {
+	text-align: right;
+}
+
+.dateinfo .block > span {
+	margin-right: inherit;
+	margin-left: 10px;
+}
+
+.blog-info .blog-meta p {
+	padding-right: 5px;
+}
+
+.blog-info .blog-meta span {
+	padding-left: 4px;
+}
+
+.port-post-photo {
+	float: right;
+	margin-right: inherit;
+	margin-left: 20px;
+}
+
+.slidebar .social.pull-right {
+	float: left !important;
+}
+
+.slidebar .search-form input {
+	padding-right: 15px;
+}
+
+.page-header-title .blog-meta span {
+	padding-left: 5px;
+}
+
+.author-details .author-name {
+	padding-left: inherit;
+	padding-right: 30px;
+}
+
+.blog-single blockquote {
+	border-right: 3px solid #07cb79;
+	border-left: 0px;
+}
+
+.back-home.pull-left {
+	float: right !important;
+}
+
+.breadcrumb.pull-right {
+	float: left !important;
+	width: auto !important;
+}
+
+.single-product form.cart {
+	float: right;
+}
+
+.single-product .product_meta {
+	clear: both;
+}
+
+.woocommerce #reviews #comments ol.commentlist li img.avatar {
+	float: right;
+	left: inherit;
+	right: 0;
+}
+
+.woocommerce #reviews #comments ol.commentlist li .comment-text {
+	margin-right: 50px;
+}
+
+.woocommerce .up-sells.upsells.products h2 {
+	font-size: 24px;
+}
+
+.single-product.woocommerce ul.products li.product,
+.single-product.woocommerce-page ul.products li.product {
+	float: right;
+	margin: 0 0 2.992em 3.8%;
+}
+
+.woocommerce #content div.product div.thumbnails a,
+.woocommerce div.product div.thumbnails a,
+.woocommerce-page #content div.product div.thumbnails a,
+.woocommerce-page div.product div.thumbnails a {
+	margin-right: 0px;
+	margin-left: 3.8%;
+	float: right;
+}
+
+.post-navigation .nav-previous {
+	text-align: left;
+}
+
+.comments-1 .comments-photo {
+	float: right;
+	margin-right: 0px;
+	margin-left: 20px;
+}
+
+.comment.odd {
+	margin-right: 125px;
+	margin-left: 0px;
+}
+
+.contact-content {
+	left: -300px;
+	right: inherit;
+}
+
+.contact-content.show-contact {
+	transform: translate3d(300px, 0, 0);
+	-webkit-transform: translate3d(300px, 0, 0);
+	-o-transform: translate3d(300px, 0, 0);
+	-moz-transform: translate3d(300px, 0, 0);
+	-ms-transform: translate3d(300px, 0, 0);
+}
+
+.woocommerce #content div.product div.images,
+.woocommerce div.product div.images,
+.woocommerce-page #content div.product div.images,
+.woocommerce-page div.product div.images {
+	float: right;
+}
+
+.woocommerce .summary.entry-summary {
+	float: left !important;
+}
+
+.contact-form {
+	text-align: right;
+}
+
+.contact-form .wpcf7-form-control-wrap input {
+	direction: rtl;
+	unicode-bidi: embed;
+	padding-right: 15px;
+}
+
+.woocommerce .cart-collaterals .cart_totals,
+.woocommerce-page .cart-collaterals .cart_totals {
+	float: right;
+}
+
+.woocommerce .cart .button,
+.woocommerce .cart input.button {
+	float: left;
+}
+
+.woocommerce #content table.cart td.actions .coupon,
+.woocommerce table.cart td.actions .coupon,
+.woocommerce-page #content table.cart td.actions .coupon,
+.woocommerce-page table.cart td.actions .coupon {
+	float: right;
+}
+
+.woocommerce-checkout #payment ul.payment_methods li {
+	text-align: right;
+}
+
+td,
+th {
+	text-align: right;
+}
+
+blockquote {
+	border-right: 3px solid #07cb79;
+	border-left: 0px;
+}
+
+.woocommerce-account .woocommerce-MyAccount-navigation {
+	float: right;
+}
+
+.woocommerce ul.products li.product,
+.woocommerce-page ul.products li.product {
+	margin: 0 0 2.992em 3.8%;
+	float: right;
+}
+
+.woocommerce ul.products li.last,
+.woocommerce-page ul.products li.last {
+	margin-left: 0px;
+	margin-right: inherit;
+}
+
+.woocommerce .woocommerce-info a {
+	margin-left: 15px;
+}
+
+.woocommerce-page .site-main {
+	padding: 0px 80px;
+}
+
+input,
+textarea {
+	padding-right: 10px;
+}
+
+.entry-content a:hover {
+	color: #2f3742;
+}
+
+.entry-content ul,
+.entry-content ol {
+	margin-right: 20px;
+}
+
+.entry-content ul ul,
+.entry-content ol ol {
+	margin-right: 0px;
+}
+
+@media (max-width:992px) {
+	#left-header {
+		right: inherit;
+		left: -230px;
+	}
+
+	.content-scroller {
+		margin-right: inherit;
+		margin-left: 0px;
+	}
+
+	.but i {
+		right: inherit;
+		left: 15px;
+	}
+
+	.intro-content-main {
+		padding-right: 20px;
+	}
+
+	.comment.odd {
+		margin-right: 5px;
+	}
+
+}

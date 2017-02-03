@@ -1,0 +1,1358 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sam Martin 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-01-24 13:57+0100\n"
+"PO-Revision-Date: 2017-01-24 14:35+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: archimedia <archi@achi.fr>\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/acf\n"
+"X-Poedit-SearchPathExcluded-1: includes/redux-framework\n"
+
+#: 404.php:17
+msgid "error"
+msgstr "Erreur"
+
+#: 404.php:18
+msgid "404"
+msgstr "404"
+
+#: 404.php:19
+msgid "opppsss! it looks like you are lost"
+msgstr "opppsss ! On dirait que vous êtes perdu"
+
+#: 404.php:21
+msgid "return home"
+msgstr "Accueil"
+
+#: comments.php:31
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr "Un commentaire sur &ldquo;%2$s&rdquo;"
+
+#: comments.php:40 comments.php:62
+msgid "Comment navigation"
+msgstr "Navigation des commentaires"
+
+#: comments.php:43 comments.php:65
+msgid "Older Comments"
+msgstr "Anciens commentaires"
+
+#: comments.php:44 comments.php:66
+msgid "Newer Comments"
+msgstr "Nouveaux commentaires"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "Les commentaires sont fermés."
+
+#: comments.php:96
+msgid "Name*"
+msgstr "Nom*"
+
+#: comments.php:98
+msgid "Email*"
+msgstr "Email *"
+
+#: comments.php:100
+msgid "Web"
+msgstr "Site Internet"
+
+#: comments.php:102
+msgid "Comment*"
+msgstr "Commentaire *"
+
+#: content.php:16
+msgid "Featured post"
+msgstr "Publication mise en avant"
+
+#: content.php:33
+msgid "Leave a reply"
+msgstr "Ajouter une réponse"
+
+#: content.php:33
+msgid "1 Reply"
+msgstr "1 commentaire"
+
+#: content.php:33
+msgid "% Replies"
+msgstr "% réponses"
+
+#: content.php:45 single.php:47 template-parts/content-page.php:19
+msgid "Pages:"
+msgstr "Pages:"
+
+#: content.php:50 functions.php:478
+msgid "Edit"
+msgstr "modifier"
+
+#: content.php:61
+#, php-format
+msgid "About %s"
+msgstr "À propos de %s"
+
+#: content.php:65
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Voir tous les Articles de %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:53
+msgid "Primary"
+msgstr "Primaire"
+
+#: functions.php:54
+msgid "Home Page Menu"
+msgstr "Page d'accueil et menu"
+
+#: functions.php:119
+msgid "Sidebar"
+msgstr "Barre latérale"
+
+#: functions.php:121
+msgid "Add widgets here to appear in your sidebar."
+msgstr "Ajouter ici les widgets qui vont apparaître dans votre barre latérale."
+
+#: functions.php:130 includes/redux-options.php:358
+msgid "Footer"
+msgstr "Bas de page"
+
+#: functions.php:132
+msgid "Add widgets here to in your footer."
+msgstr "Ajoutez des widgets ici qui apparaitront dans votre pied-de-page."
+
+#: functions.php:152 functions.php:157
+msgid "on"
+msgstr "dans"
+
+#: functions.php:450
+msgid "Pingback:"
+msgstr "Rétroliens :"
+
+#: functions.php:450
+msgid "(Edit)"
+msgstr "(Modifier)"
+
+#: functions.php:466
+msgid "Post author"
+msgstr "Auteur de l’article"
+
+#: functions.php:471
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s à %2$s"
+
+#: functions.php:474
+msgid "Reply"
+msgstr "Répondre"
+
+#: functions.php:483
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération."
+
+#: functions.php:554
+msgid "Posted by : "
+msgstr "Publié par:"
+
+#: functions.php:558
+msgid "Follow on:"
+msgstr "Suivre :"
+
+#: functions.php:622
+msgid "share post :"
+msgstr "Partager :"
+
+#: header.php:46
+msgid "Skip to content"
+msgstr "Aller au contenu principal"
+
+#: header.php:75
+msgid "Primary Menu"
+msgstr "Menu principal du haut"
+
+#: inc/navwalker.php:196
+msgid "Add a menu"
+msgstr "ajouter un menu"
+
+#: inc/template-tags.php:28
+#, php-format
+msgid "Posted on %s"
+msgstr "Publié le %s"
+
+#: inc/template-tags.php:33
+#, php-format
+msgid "by %s"
+msgstr "par %s"
+
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Publié dans  %1$s"
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Classé dans %1$s"
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment <span class=\"screen-reader-text\">on %s</span>"
+msgstr ""
+"Laisser un commentaire <span class=\"screen-reader-text\">à propos de %s</"
+"span>"
+
+#: inc/template-tags.php:72
+#, php-format
+msgid "Edit %s"
+msgstr "Modifier %s"
+
+#: includes/acf.php:6
+msgid ""
+"<strong>Advanced Custom Fields PRO</strong> is not installed/activated. "
+"Please install/activate the plugin to enable complete features."
+msgstr ""
+"<strong>Advanced Custom Fields PRO</strong> n’est pas installé/activé. S’il "
+"vous plaît installer/activer le plugin pour activer des fonctionnalités "
+"complètes."
+
+#: includes/acf.php:119
+msgid "Page Settings"
+msgstr "Page réglages"
+
+#: includes/acf.php:123
+msgid "General"
+msgstr "Général"
+
+#: includes/acf.php:139
+msgid "Subtitle"
+msgstr "Sous-titre"
+
+#: includes/acf.php:160
+msgid "Show Header Banner"
+msgstr "Bannière d’en-tête"
+
+#: includes/acf.php:176
+msgid "Enable Custom Banner"
+msgstr "Activez la bannière personnalisée"
+
+#: includes/acf.php:200
+msgid "Banner"
+msgstr "Bannière"
+
+#: includes/acf.php:229
+msgid "Banner Type"
+msgstr "Type de bannière"
+
+#: includes/acf.php:260 includes/redux-options.php:510
+msgid "Banner (Image)"
+msgstr "Image de la bannière"
+
+#: includes/acf.php:297 includes/redux-options.php:519
+msgid "Background Opacity Color (Custom Color)"
+msgstr "Couleur d’opacité de fond (couleur personnalisée)"
+
+#: includes/acf.php:325 includes/redux-options.php:527
+msgid "Background Opacity Color (Custom Opacity)"
+msgstr "Couleur d’arrière-plan Opacity (opacité personnalisée)"
+
+#: includes/acf.php:361 includes/redux-options.php:541
+msgid "Banner (Color)"
+msgstr "Couleur de la bannière"
+
+#: includes/acf.php:412
+msgid "Post Gallery"
+msgstr "Galerie d'article"
+
+#: includes/acf.php:416
+msgid "Images"
+msgstr "Images"
+
+#: includes/acf.php:465
+msgid "User More Info"
+msgstr "Plus d'info"
+
+#: includes/acf.php:469
+msgid "User Designation"
+msgstr "Désignation de l’utilisateur"
+
+#: includes/acf.php:485
+msgid "Facebook Url"
+msgstr "URL Facebook"
+
+#: includes/acf.php:501
+msgid "Twitter Url"
+msgstr "URL Twitter"
+
+#: includes/acf.php:517
+msgid "Pintrest Url"
+msgstr "Url Pintrest"
+
+#: includes/pgs_redux_map/field_pgs_redux_map.php:83
+msgid "Location"
+msgstr "Adresse"
+
+#: includes/pgs_redux_map/field_pgs_redux_map.php:94
+msgid "Lat."
+msgstr ""
+
+#: includes/pgs_redux_map/field_pgs_redux_map.php:100
+msgid "Long."
+msgstr ""
+
+#: includes/redux-options.php:42 includes/redux-options.php:43
+msgid "Theme Settings"
+msgstr "Paramètres du thème"
+
+#: includes/redux-options.php:140
+msgid "Potenza"
+msgstr "archimedia"
+
+#: includes/redux-options.php:145
+msgid "Support"
+msgstr "Assistance"
+
+#: includes/redux-options.php:151
+msgid "Themeforest Profile"
+msgstr "Profil de ThemeForest"
+
+#: includes/redux-options.php:188
+#, php-format
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of "
+"your saved options from within your code you can use your global variable: "
+"<strong>$%1$s</strong></p>"
+msgstr ""
+"<p>Saviez-vous que Redux définit une variable globale pour vous ? Pour "
+"accéder à vos options enregistrées à partir de votre code, vous pouvez "
+"utiliser votre variable globale : <strong>$%1$s</strong> </p>"
+
+#: includes/redux-options.php:190
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but "
+"more info is always better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+"<p> Ce texte est affiché au-dessus du panneau d’options . Il est pas "
+"nécessaire, mais plus d’info est toujours mieux ! Le champ intro_text "
+"accepte tous les fichiers HTML . </p>"
+
+#: includes/redux-options.php:194
+msgid ""
+"<p>This text is displayed below the options panel. It isn't required, but "
+"more info is always better! The footer_text field accepts all HTML.</p>"
+msgstr ""
+"<p>Ce texte s’affiche en-dessous du panneau d’options. Il n’est pas "
+"nécessaire, mais un supplément d’information est toujours intéressant ! Le "
+"champ footer_text accepte tout code HTML.</p>"
+
+#: includes/redux-options.php:214
+msgid "Header"
+msgstr "En-tête"
+
+#: includes/redux-options.php:221 includes/redux-options.php:230
+msgid "Site Logo"
+msgstr "Logo du Site"
+
+#: includes/redux-options.php:223
+msgid "Upload Site Logo "
+msgstr "Télécharger votre logo du site"
+
+#: includes/redux-options.php:232
+msgid "Upload Site Logo"
+msgstr "Télécharger votre logo du site"
+
+#: includes/redux-options.php:239
+msgid "Favicon Icon"
+msgstr "Favicon Icône"
+
+#: includes/redux-options.php:241
+msgid "Upload Site favicon icon"
+msgstr "Charger le site favicon."
+
+#: includes/redux-options.php:249
+msgid "Site layout & Color Schemes"
+msgstr "Aménagement du site & jeux de couleurs"
+
+#: includes/redux-options.php:251 includes/redux-options.php:284
+msgid "Which Layout options you want to use? Choose from below options."
+msgstr ""
+"Quelles options de mise en page que vous souhaitez utiliser ? Choisissez en "
+"bas des options."
+
+#: includes/redux-options.php:258
+msgid "Color Schemes"
+msgstr "Jeux de couleurs"
+
+#: includes/redux-options.php:259
+msgid "Which theme color you want to use? Here are some predefined colors."
+msgstr ""
+"Quelle couleur de thème que vous souhaitez utiliser ? Voici quelques "
+"couleurs prédéfinies."
+
+#: includes/redux-options.php:265
+msgid "Main Theme Color"
+msgstr "Couleur principale du thème"
+
+#: includes/redux-options.php:271
+msgid "Secondary Color"
+msgstr "Couleur secondaire"
+
+#: includes/redux-options.php:277
+msgid "Tertiary Color"
+msgstr "Couleur tertiaire"
+
+#: includes/redux-options.php:283
+msgid "Site layout Option"
+msgstr "Option de mise en page"
+
+#: includes/redux-options.php:292
+msgid "Layout Option"
+msgstr "Option de mise en page"
+
+#: includes/redux-options.php:295
+msgid "Layout 01"
+msgstr "Mise en page 01"
+
+#: includes/redux-options.php:299
+msgid "Layout 02"
+msgstr "Mise en page 02"
+
+#: includes/redux-options.php:303
+msgid "Layout 03"
+msgstr "Mise en page 03"
+
+#: includes/redux-options.php:313
+msgid "Social Link"
+msgstr "Lien social"
+
+#: includes/redux-options.php:321 includes/theme-widgets.php:169
+msgid "Facebook"
+msgstr "Facebook"
+
+#: includes/redux-options.php:322
+msgid "Enter Facebook url."
+msgstr "Entrez votre URL Facebook."
+
+#: includes/redux-options.php:330 includes/theme-widgets.php:173
+msgid "Twitter"
+msgstr "Twitter"
+
+#: includes/redux-options.php:331
+msgid "Enter Twitter url."
+msgstr "Entrez le lien du profil Twitter"
+
+#: includes/redux-options.php:339 includes/theme-widgets.php:193
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: includes/redux-options.php:340
+msgid "Enter Linkedin url."
+msgstr "Entrez le lien du profil LinkedIn"
+
+#: includes/redux-options.php:348
+msgid "Copy Write Text"
+msgstr "Copyright"
+
+#: includes/redux-options.php:366
+msgid "Google Map"
+msgstr "Google Map"
+
+#: includes/redux-options.php:368
+msgid "You can set your address on google map"
+msgstr "Vous pouvez modifier votre adresse sur la carte google"
+
+#: includes/redux-options.php:371
+msgid ""
+"A marker identifies a location on a map. Hold pressed and drag to move it"
+msgstr ""
+"Un marqueur identifie un emplacement sur une carte. Maintenez enfoncé et "
+"faites glisser pour la déplacer"
+
+#: includes/redux-options.php:378
+msgid "Map Marker"
+msgstr "Marqueur Carte"
+
+#: includes/redux-options.php:380
+msgid "Set your own google map marker on front end google map "
+msgstr ""
+"Définir votre propre marqueur de carte de google sur la carte google de "
+"front-end"
+
+#: includes/redux-options.php:381
+msgid "Upload Google Map Marker"
+msgstr "Télécharger Google Map Marker"
+
+#: includes/redux-options.php:388
+msgid "Google Map API Key"
+msgstr "Clé Google Map API"
+
+#: includes/redux-options.php:390
+msgid "Set your own google API Key here "
+msgstr "Définissez votre propre clé API de google ici"
+
+#: includes/redux-options.php:396
+msgid "Display Contact Icon In footer"
+msgstr "Afficher l’icône Contact en bas de page"
+
+#: includes/redux-options.php:399
+msgid "Yes"
+msgstr "Oui"
+
+#: includes/redux-options.php:400
+msgid "No"
+msgstr "Non"
+
+#: includes/redux-options.php:407
+msgid "Contact Title"
+msgstr "Titre du contact"
+
+#: includes/redux-options.php:408
+msgid "Enter Contact us title"
+msgstr "Titre de la section « Nous contacter »"
+
+#: includes/redux-options.php:409
+msgid "Drop me a line"
+msgstr "Envoyez-moi un message"
+
+#: includes/redux-options.php:415
+msgid "Contact Description"
+msgstr "Description du contact"
+
+#: includes/redux-options.php:416
+msgid "Enter Contact us description"
+msgstr "Entrer nous contacter description"
+
+#: includes/redux-options.php:417
+msgid ""
+"Use this form to tell me about your project goals and needs. I will be in "
+"touch within 24 hours."
+msgstr "Utilisez ce formulaire pour me contacter."
+
+#: includes/redux-options.php:423
+msgid "Contact Form 7 Shortcode "
+msgstr "Contact Form 7 Shortcode"
+
+#: includes/redux-options.php:424
+msgid "Enter Contact Form 7 shortcode for display contact us form"
+msgstr ""
+"Entrez Contact Form 7 shortcode pour affichage Contactez-nous formulaire"
+
+#: includes/redux-options.php:439
+msgid "Social Sharing"
+msgstr "Partager"
+
+#: includes/redux-options.php:441
+msgid "Enable disable sharing functionality."
+msgstr "Activer désactiver la fonctionnalité de partage."
+
+#: includes/redux-options.php:448
+msgid "Facebook Share"
+msgstr "Partage sur Facebook"
+
+#: includes/redux-options.php:450
+msgid "You can share post with facebook."
+msgstr "Vous pouvez partager sur Facebook."
+
+#: includes/redux-options.php:456
+msgid "Twitter Share"
+msgstr "Partage sur Twitter"
+
+#: includes/redux-options.php:458
+msgid "You can share post with twitter"
+msgstr "Vous pouvez partager sur twitter"
+
+#: includes/redux-options.php:464
+msgid "Linkedin Share"
+msgstr "Partage sur LinkedIn"
+
+#: includes/redux-options.php:466
+msgid "You can share post with linkedin"
+msgstr "Vous pouvez partager sur linkedin"
+
+#: includes/redux-options.php:472
+msgid "Google Plus Share"
+msgstr "Partage Google Plus"
+
+#: includes/redux-options.php:474
+msgid "You can share post with google plus"
+msgstr "Vous pouvez partager sur google plus"
+
+#: includes/redux-options.php:480
+msgid "Pinterest Share"
+msgstr "Partage sur Pinterest"
+
+#: includes/redux-options.php:482
+msgid "You can share post with pinterest"
+msgstr "Vous pouvez partager sur pinterest"
+
+#: includes/redux-options.php:489
+msgid "Default Header Setting"
+msgstr "En-tête par défaut"
+
+#: includes/redux-options.php:491
+msgid "You can set the default header setting"
+msgstr "Vous pouvez définir le paramètre d’en-tête par défaut"
+
+#: includes/redux-options.php:498
+msgid "Header Banner Type"
+msgstr "Bannière d’en-tête"
+
+#: includes/redux-options.php:501
+msgid "Image"
+msgstr "Image"
+
+#: includes/redux-options.php:502
+msgid "Color"
+msgstr "Couleur"
+
+#: includes/redux-options.php:520
+msgid "Pick a background opacity color for the header (default: #000)."
+msgstr ""
+"Choisir une couleur de fond pour la barre d'en-tête (par défaut: #fff)."
+
+#: includes/redux-options.php:528
+msgid "This example displays float values"
+msgstr "Cet exemple affiche des valeurs flottantes"
+
+#: includes/redux-options.php:529
+msgid "Slider description. Min: 0, max: 1, step: .1, default value: .5"
+msgstr ""
+"Description diaporama. Min. : 0, max. : 1, étapes : .1, valeur par "
+"défaut : .5"
+
+#: includes/redux-options.php:542
+msgid "Pick a backgroundcolor for the header (default: #000)."
+msgstr "Choisir un backgroundcolor de l’en-tête (par défaut : #000)."
+
+#: includes/sample_data/sample_data.php:17
+msgid "Successfully installed demo data."
+msgstr "L’installation des données de démonstration."
+
+#: includes/sample_data/sample_data.php:27
+msgid "Sample Data"
+msgstr "EXEMPLE DE DONNEES"
+
+#: includes/sample_data/sample_data.php:132
+msgid ""
+"Invalid sample data security credential.  Please reload the page and try "
+"again."
+msgstr ""
+"Certificat de sécurité non-valide. Veuillez recharger la page et essayez à "
+"nouveau."
+
+#: includes/sample_data/sample_data.php:145
+msgid "Invalid selection."
+msgstr "Sélection invalide"
+
+#: includes/sample_data/sample_data.php:164
+msgid "Please install/activate \"Sam Martin - Theme Functions\"."
+msgstr "S’il vous plaît installer/activer « Sam Martin – fonctions de thème »."
+
+#: includes/sample_data/sample_data.php:242
+msgid "Something went wrong"
+msgstr "Un problème s’est produit"
+
+#: includes/sample_data/theme_sample_import/field_tc_sample_import.php:120
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr "Installer"
+
+#: includes/sample_data/theme_sample_import/field_tc_sample_import.php:130
+#, php-format
+msgid ""
+"Please install/activate <strong>Sam Martin - Theme Functions</strong> to "
+"import sample data. Click <a href=\"%s\">here</a> to proceed."
+msgstr ""
+"S’il vous plaît installer/activer <strong>Sam Martin - fonctions de thème</"
+"strong> pour importer des données de l’échantillon. Cliquez <a href=\"%s"
+"\">ici</a> pour aller de l’avant."
+
+#: includes/sample_data/widget-importer-exporter/widget-import.php:56
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+"La barre latérale n’existe pas dans le thème (son utilisation est inactive)"
+
+#: includes/sample_data/widget-importer-exporter/widget-import.php:78
+msgid "Site does not support widget"
+msgstr "Le site ne supporte pas les widgets"
+
+#: includes/sample_data/widget-importer-exporter/widget-import.php:114
+msgid "Widget already exists"
+msgstr "Le widget existe déjà"
+
+#: includes/sample_data/widget-importer-exporter/widget-import.php:176
+msgid "Imported"
+msgstr "Importé"
+
+#: includes/sample_data/widget-importer-exporter/widget-import.php:179
+msgid "Imported to Inactive"
+msgstr "Importation dans inactif"
+
+#: includes/sample_data/widget-importer-exporter/widget-import.php:186
+msgid "No Title"
+msgstr "Sans titre"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "L’installation requière des extensions"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Installer les extensions"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Installation de l’extension : %s"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Réactualisation du plugin %s"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Il y a eu un problème avec l’API des extensions."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgstr "Ce thème nécessite l'extension suivante: %1$s."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgstr "Ce thème recommande l'extension suivante : %1$s."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr ""
+"Le plugin suivant doit être mis à jour à sa version la plus récente pour "
+"assurer une compatibilité maximale avec ce thème : %1$s"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgstr "Il y a une mise à jour disponible pour: %1$s."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgstr "The following required plugin is currently inactive: %1$s."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgstr "L’extension recommandée suivante est actuellement inactive : %1$s."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgstr "Commencez à installer les plugins"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgstr "Commencer la mise à jour de l’extension"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgstr "Commencer l'activation de l'extension."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Retour à l’installation des extensions requises"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:393
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:920
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2626
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Revenir au tableau de bord"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:394
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Extension activée avec succès"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:395
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgstr "L'extension a été activé avec succès"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Aucune action. L'extension %1$ s était déjà active."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Extension non activée. Une version plus récente de%s est nécessaire pour ce "
+"thème. Veuillez mettre à jour l’extension."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Toutes les extensions ont été installées et activées avec succès. %1$s"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Cacher cette notification"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Il existe un ou plusieurs plugins requis ou recommandés pour installer, "
+"mettre à jour ou activer."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr "Veuillez contacter l’administrateur du site pour obtenir de l’aide."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Cette extension a besoin d’être mise à jour pour être compatible avec votre "
+"thème."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr "Mise à jour requise"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Définissez la variable de configuration de parent_slug à la place."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Le pack de plugin à distance ne contient pas un dossier avec la limace "
+"souhaitée et le renommage ne fonctionne pas."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1027
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Veuillez contacter le fournisseur de cette extension afin de leur demander "
+"de conditionner leur extension selon les recommandations  de WordPress."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Le pack d’extension à distance se compose de plus d’un fichier, mais les "
+"fichiers ne sont pas conditionnés dans un dossier."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:1214
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3041
+msgid "and"
+msgstr "et"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr "Requis"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Recommandé"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "Répertoire WordPress"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr "Source externe"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Préemballé"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "﻿Pas installé"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Installé mais non activé"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr "Active"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Aucune mise à jour disponible"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Mises à jour requise"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Mise à jour recommandée"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2435
+#, php-format
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2481
+#, php-format
+msgid "All <span class=\"count\">(%s)</span>"
+msgstr "Tous <span class=\"count\">(%s)</span>"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgstr "Pour installer <span class=\"count\">(%s)</span>"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgstr "Mise à jour disponible <span class=\"count\">(%s)</span>"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgstr "Pour activer <span class=\"count\">(%s)</span>"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2575
+msgid "unknown"
+msgstr "Inconnue"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Version Installée :"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Version minimum requise :"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Version disponible :"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Pas de plugins à installer, à mettre à jour ou à activer."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Extension"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr "Source"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr "Type"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr "Version"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr "État"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "Installation %2$s"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "Mise à jour %2$s"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "Activation %2$s"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Mettre à jour le message de l’auteur de l’extension :"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr "Mise à jour"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr "Activer"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+"Aucune extension n’a été sélectionnée pour être installée. Aucune action."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+"Aucune extension n’a été sélectionnée pour être mise à jour. Aucune action."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Aucune extension à installer pour le moment."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Aucune extension à mettre à jour pour le moment."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+"Aucun plugin n’a été sélectionné pour être activé. Aucune mesure prise."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Aucune extension à activer pour le moment."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Échec de l’activation de l’extension."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Mise à jour de l’extension %1$s (%2$d/%3$d)"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+"Une erreur s’est produite lors de l’installation %1$s: <strong>%2$s</strong>."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "L'installation de%1$s échoué."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"La procédure d’installation et d’activation a commencé. Cela peut prendre un "
+"certain moment selon les serveurs. S’il vous plaît soyez patient !"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s installés et activés avec succès."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3602
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Afficher les détails"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3602
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Cacher les détails"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "﻿Toutes les installations et les activations ont été réalisées."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation et Activation de l’extension %1$s (%2$d/%3$d)"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"La procédure d’installation a commencé. Cela peut prendre un certain moment "
+"selon les serveurs. S’il vous plaît soyez patient !"
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s install&eacute;e avec succ&egrave;s."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "﻿Toutes les installations ont été réalisées."
+
+#: includes/tgm-plugin-activation/core/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Installation de l’extension %1$s (%2$d/%3$d)"
+
+#: includes/tgm-plugin-activation/tgm-init.php:33
+msgid "Visual Composer"
+msgstr "Visual Composer"
+
+#: includes/tgm-plugin-activation/tgm-init.php:44
+msgid "Sam Martin - Theme Functions"
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-init.php:55
+msgid "Redux Framework"
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-init.php:65
+msgid "PGS Portfolio"
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-init.php:76
+msgid "PGS Testimonials"
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-init.php:87
+msgid "Advanced Custom Fields PRO"
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-init.php:98
+msgid "Contact Form 7"
+msgstr ""
+
+#: includes/tgm-plugin-activation/tgm-init.php:110
+msgid "WooCommerce"
+msgstr ""
+
+#: includes/theme-breadcrumbs.php:8
+msgid "Home"
+msgstr "Accueil"
+
+#: includes/theme-breadcrumbs.php:175 includes/theme-breadcrumbs.php:178
+#: includes/theme-breadcrumbs.php:187 includes/theme-breadcrumbs.php:190
+#: includes/theme-breadcrumbs.php:195
+msgid "Archives"
+msgstr "Archives"
+
+#: includes/theme-breadcrumbs.php:206
+msgid "Author"
+msgstr "Auteur"
+
+#: includes/theme-breadcrumbs.php:211
+msgid "Page"
+msgstr "Page"
+
+#: includes/theme-breadcrumbs.php:216
+msgid "Search results for"
+msgstr "Résultats de la recherche pour"
+
+#: includes/theme-breadcrumbs.php:221
+msgid "Error 404"
+msgstr "Erreur 404"
+
+#: includes/theme-widgets.php:12
+msgid "Display Contact information"
+msgstr "Afficher les coordonnées."
+
+#: includes/theme-widgets.php:13
+msgid "Display Contact information "
+msgstr "Afficher les coordonnées."
+
+#: includes/theme-widgets.php:24
+msgid "Contact Us"
+msgstr "Contacts"
+
+#: includes/theme-widgets.php:138 includes/theme-widgets.php:160
+msgid "Title"
+msgstr "Titre"
+
+#: includes/theme-widgets.php:142
+msgid "Address"
+msgstr "Adresse"
+
+#: includes/theme-widgets.php:146
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/theme-widgets.php:150
+msgid "Phone#"
+msgstr "Téléphone#"
+
+#: includes/theme-widgets.php:154
+msgid "fax#"
+msgstr "Fax#"
+
+#: includes/theme-widgets.php:158
+msgid "Social Information"
+msgstr "Informations sociales"
+
+#: includes/theme-widgets.php:164
+msgid "Description"
+msgstr "La description"
+
+#: includes/theme-widgets.php:177
+msgid "Dribbble"
+msgstr ""
+
+#: includes/theme-widgets.php:181
+msgid "Vimeo"
+msgstr ""
+
+#: includes/theme-widgets.php:185
+msgid "Pinterest"
+msgstr ""
+
+#: includes/theme-widgets.php:189
+msgid "Behance"
+msgstr ""
+
+#: includes/theme-widgets.php:198
+msgid "Button Text"
+msgstr "Texte bouton"
+
+#: includes/theme-widgets.php:202
+msgid "Download File"
+msgstr "Télécharger le fichier"
+
+#: includes/welcome.php:28 includes/welcome.php:40
+#, php-format
+msgid "Welcome to %s"
+msgstr "Bienvenue à %s"
+
+#: includes/welcome.php:29
+msgid "Sam Martin"
+msgstr "Stéphane ESCOBAR"
+
+#: includes/welcome.php:42
+msgid "Congratulations! Your theme installtion is begun."
+msgstr "Félicitations ! Votre installtion de thème est commencée."
+
+#: includes/welcome.php:45
+msgid ""
+"Sam Martin is an Elegant, Clean, Beautiful and Personal WordPress portfolio "
+"Theme crafted with love, for creatives and professionals who are looking to "
+"showcase their portfolio as well as their resume in a great modern way."
+msgstr ""
+
+#: includes/welcome.php:48
+msgid ""
+"<strong>Note</strong> : This theme requires some plugins to be pre-installed "
+"to get all features and functionalities. Please ensure all plugin are "
+"installed and activated. Click below to proceed."
+msgstr ""
+"<strong>Note</strong> : ce thème nécessite quelques plugins pour être pré-"
+"installé pour obtenir toutes les caractéristiques et les fonctionnalités. "
+"S’il vous plaît s’assurer que tous les plugin sont installés et activés. "
+"Cliquez ci-dessous pour aller de l’avant."
+
+#: includes/welcome.php:60
+msgid "Proceed"
+msgstr "Procéder"
+
+#: includes/welcome.php:65
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: includes/widgets/recent-posts.php:10
+msgid "Recent Posts"
+msgstr "Articles récents"
+
+#: includes/widgets/tag-cloud.php:9
+msgid "Tags"
+msgstr "Sujets"
+
+#: single-portfolios.php:39
+msgid "Tags:"
+msgstr "Sujets"
+
+#: single-portfolios.php:58
+msgid "Release:"
+msgstr "Date :"
+
+#: single-portfolios.php:62
+msgid "Client:"
+msgstr "Client :"
+
+#: single-portfolios.php:66
+msgid "Live Demo:"
+msgstr "Web:"
+
+#: single-portfolios.php:70
+msgid "Skills:"
+msgstr "Outils :"
+
+#: single.php:42
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Lire la suite %s <span class=“meta-nav”>&rarr;</span>"
+
+#: template-parts/content-header.php:61
+msgid "back to home"
+msgstr "Retour à l’accueil"
+
+#: template-parts/content-header.php:72
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de la recherche pour : %s"
+
+#: template-parts/content-header.php:85
+#, php-format
+msgid "By %s"
+msgstr "Par %s"
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Aucun élément trouvé"
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Prêt à publier votre premier article ? <a href=\"%1$s\">Démarrer ici</a>."
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Désolé, mais rien ne correspond à vos critères. Veuillez réessayer avec des "
+"mots différents."
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Il semble que nous ne pouvons pas trouver ce que vous recherchez. Peut-être "
+"qu’une recherche aiderait."
+
+#: template-parts/content-search.php:41 template-parts/content.php:42
+msgid "Read More.."
+msgstr "Lire la suite..."

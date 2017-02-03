@@ -1,0 +1,110 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PGS Testimonials 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2016-12-06 15:19+0530\n"
+"PO-Revision-Date: 2016-09-09 18:54+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/acf\n"
+"X-Poedit-SearchPathExcluded-1: includes/redux-framework\n"
+
+#: pgs_testimonials.php:33 pgs_testimonials.php:35 pgs_testimonials.php:82
+msgid "Testimonials"
+msgstr ""
+
+#: pgs_testimonials.php:34 pgs_testimonials.php:36
+msgid "Testimonial"
+msgstr ""
+
+#: pgs_testimonials.php:37
+msgid "Add New"
+msgstr ""
+
+#: pgs_testimonials.php:38
+msgid "Add New Testimonial"
+msgstr ""
+
+#: pgs_testimonials.php:39
+msgid "New Testimonial"
+msgstr ""
+
+#: pgs_testimonials.php:40
+msgid "Edit Testimonial"
+msgstr ""
+
+#: pgs_testimonials.php:41
+msgid "View Testimonial"
+msgstr ""
+
+#: pgs_testimonials.php:42
+msgid "All Testimonials"
+msgstr ""
+
+#: pgs_testimonials.php:43
+msgid "Search Testimonials"
+msgstr ""
+
+#: pgs_testimonials.php:44
+msgid "Parent Testimonials:"
+msgstr ""
+
+#: pgs_testimonials.php:45
+msgid "No testimonialss found."
+msgstr ""
+
+#: pgs_testimonials.php:46
+msgid "No testimonialss found in Trash."
+msgstr ""
+
+#: pgs_testimonials.php:51
+msgid "Description."
+msgstr ""
+
+#: pgs_testimonials.php:86
+msgid "Content"
+msgstr ""
+
+#: pgs_testimonials.php:107
+msgid "Designation"
+msgstr ""
+
+#: pgs_testimonials.php:220 pgs_testimonials.php:221
+msgid "Potenza Testimonials"
+msgstr ""
+
+#: pgs_testimonials.php:226
+msgid "Potenza"
+msgstr ""
+
+#: pgs_testimonials.php:231
+msgid "No. of Testimonials"
+msgstr ""
+
+#: pgs_testimonials.php:236
+msgid "Select count of testimonials to display."
+msgstr ""
+
+#: pgs_testimonials.php:241
+msgid "CSS box"
+msgstr ""
+
+#: pgs_testimonials.php:243
+msgid "Design Options"
+msgstr ""
+
+#: pgs_testimonials.php:247
+msgid "Tab ID"
+msgstr ""

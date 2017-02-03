@@ -1,0 +1,9 @@
+## Version 1.0.1 (January 21, 2017)
+* Fixed import process.
+* Fixed minor formattings.
+* Added "Github" link in "Potenza Social Icon" shortcode.
+* Fixed "Service" url.
+* Various other minor improvements and fixes.
+
+## Version 1.0.0 (December 17, 2016)
+* Initial release
