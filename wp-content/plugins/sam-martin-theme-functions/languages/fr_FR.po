@@ -1,0 +1,734 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Sam Martin - Theme Functions 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-02-06 16:43+0100\n"
+"PO-Revision-Date: 2017-02-06 16:49+0100\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;esc_html__;esc_html_e;esc_html_x;esc_attr__;"
+"esc_attr_e;esc_attr_x;number_format_i18n;date_i18n\n"
+"X-Poedit-Basepath: ..\n"
+"Last-Translator: archimedia <archi@achi.fr>\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/acf\n"
+"X-Poedit-SearchPathExcluded-1: includes/redux-framework\n"
+
+#: sam-martin-importer/parsers.php:42 sam-martin-importer/parsers.php:72
+#: sam-martin-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr "Une erreur s’est produite lors de la lecture du fichier WXR"
+
+#: sam-martin-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+"Les détails sont présentés ci-dessus. L'importateur va maintenant essayer de "
+"nouveau avec un analyseur différent ..."
+
+#: sam-martin-importer/parsers.php:84 sam-martin-importer/parsers.php:89
+#: sam-martin-importer/parsers.php:306 sam-martin-importer/parsers.php:495
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+"Cela ne semble pas être un fichier WXR, numéro de la version WXR manquant ou "
+"invalide"
+
+#: sam-martin-importer/sam-martin-importer.php:121
+#: sam-martin-importer/sam-martin-importer.php:130
+#: sam-martin-importer/sam-martin-importer.php:181
+#: sam-martin-importer/sam-martin-importer.php:185
+#: sam-martin-importer/sam-martin-importer.php:194
+msgid "Sorry, there has been an error."
+msgstr "Désolé, il y a eu une erreur."
+
+#: sam-martin-importer/sam-martin-importer.php:122
+msgid "The file does not exist, please try again."
+msgstr "Le fichier n’existe pas, essayer à nouveau."
+
+#: sam-martin-importer/sam-martin-importer.php:165
+msgid "All done."
+msgstr "Tout est ok !"
+
+#: sam-martin-importer/sam-martin-importer.php:165
+msgid "Have fun!"
+msgstr "Amuses-toi bien !"
+
+#: sam-martin-importer/sam-martin-importer.php:166
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+"N'oubliez pas de mettre à jour votre nom d'utilisateur et votre mot de passe "
+"importés."
+
+#: sam-martin-importer/sam-martin-importer.php:186
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+"Le fichier d’exportation n’a pas pu être trouvé dans <code>%s</code> Il est "
+"probable que cela ait été causé par un problème de permissions."
+
+#: sam-martin-importer/sam-martin-importer.php:202
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+"Ce fichier WXR (version %s) ne peut être pris en charge par cette version de "
+"l’importateur. Faites une mise à jour."
+
+#: sam-martin-importer/sam-martin-importer.php:227
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+"L’importation de l’auteur %s a échoué. Ses publications seront attribuées à "
+"l’utilisateur actuel."
+
+#: sam-martin-importer/sam-martin-importer.php:253
+msgid "Assign Authors"
+msgstr "Attribuer les auteurs"
+
+#: sam-martin-importer/sam-martin-importer.php:254
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+"Pour vous rendre plus facile l'édition et la sauvegarde du contenu importé, "
+"vous pouvez réaffecter l'auteur de l'article importé à un utilisateur "
+"existant de ce site. Par exemple, vous pouvez importer tous les articles que "
+"<code>admin</code> a réalisé."
+
+#: sam-martin-importer/sam-martin-importer.php:256
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+"Si un nouvel utilisateur est créé par WordPress, un nouveau mot de passe "
+"sera généré aléatoirement et le rôle du nouvel utilisateur&#8217;s sera créé "
+"en %s. Modifier manuellement les détails du nouvel utilisateur&#8217;s sera "
+"nécessaire."
+
+#: sam-martin-importer/sam-martin-importer.php:266
+msgid "Import Attachments"
+msgstr "Importer des pièces jointes"
+
+#: sam-martin-importer/sam-martin-importer.php:269
+msgid "Download and import file attachments"
+msgstr "Télécharger et importer vos pièces jointes"
+
+#: sam-martin-importer/sam-martin-importer.php:273
+msgid "Submit"
+msgstr "Envoyer"
+
+#: sam-martin-importer/sam-martin-importer.php:286
+msgid "Import author:"
+msgstr "Importation de l'auteur :"
+
+#: sam-martin-importer/sam-martin-importer.php:297
+msgid "or create new user with login name:"
+msgstr "ou créer un nouvel utilisateur avec identifiant :"
+
+#: sam-martin-importer/sam-martin-importer.php:300
+msgid "as a new user:"
+msgstr "En tant que nouvel utilisateur :"
+
+#: sam-martin-importer/sam-martin-importer.php:308
+msgid "assign posts to an existing user:"
+msgstr "Attribuer les publications à un utilisateur existant :"
+
+#: sam-martin-importer/sam-martin-importer.php:310
+msgid "or assign posts to an existing user:"
+msgstr "ou assignez les articles à un utilisateur existant :"
+
+#: sam-martin-importer/sam-martin-importer.php:311
+msgid "- Select -"
+msgstr "- Sélectionner -"
+
+#: sam-martin-importer/sam-martin-importer.php:361
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+"Impossible de créer un nouvel utilisateur pour %s. Les articles seront "
+"attribués à l’utilisateur actuel."
+
+#: sam-martin-importer/sam-martin-importer.php:413
+#, php-format
+msgid "Failed to import category %s"
+msgstr "Échec de l’importation de la catégorie %s"
+
+#: sam-martin-importer/sam-martin-importer.php:456
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr "Impossible d'importer l'étiquette d'article %s"
+
+#: sam-martin-importer/sam-martin-importer.php:505
+#: sam-martin-importer/sam-martin-importer.php:727
+#, php-format
+msgid "Failed to import %s %s"
+msgstr "Impossible d'importer %s %s"
+
+#: sam-martin-importer/sam-martin-importer.php:594
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+"Échec de l’importation de &#8220;%s&#8221; : Type d'article %s invalide"
+
+#: sam-martin-importer/sam-martin-importer.php:631
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; existe déjà."
+
+#: sam-martin-importer/sam-martin-importer.php:693
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Échec d’importation de %s &#8220;%s&#8221;"
+
+#: sam-martin-importer/sam-martin-importer.php:858
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Elément du menu ignoré à cause d'un label de menu manquant"
+
+#: sam-martin-importer/sam-martin-importer.php:865
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "ment du menu ignoré à cause du d'un label de menu invalide : %s"
+
+#: sam-martin-importer/sam-martin-importer.php:928
+msgid "Fetching attachments is not enabled"
+msgstr "Le téléchargement des pièces jointes n’est pas activé"
+
+#: sam-martin-importer/sam-martin-importer.php:941
+msgid "Invalid file type"
+msgstr "Type de fichier invalide"
+
+#: sam-martin-importer/sam-martin-importer.php:985
+msgid "Remote server did not respond"
+msgstr "Le serveur distant ne répond pas"
+
+#: sam-martin-importer/sam-martin-importer.php:991
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr "Le serveur distant à renvoyé une erreur %1$d %2$s"
+
+#: sam-martin-importer/sam-martin-importer.php:998
+msgid "Remote file is incorrect size"
+msgstr "La taille du fichier distant est incorrecte"
+
+#: sam-martin-importer/sam-martin-importer.php:1003
+msgid "Zero size file downloaded"
+msgstr "Fichier vide téléchargé"
+
+#: sam-martin-importer/sam-martin-importer.php:1009
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr "Le fichier distant est trop gros, la limite est de : %s"
+
+#: sam-martin-importer/sam-martin-importer.php:1108
+msgid "Import WordPress"
+msgstr "Importer WordPress"
+
+#: sam-martin-importer/sam-martin-importer.php:1115
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+"Une nouvelle version de cet importateur est disponible. Veuillez mettre à "
+"jour vers la version %s pour assurer la compatibilité avec les fichiers "
+"d'exportation les plus récents."
+
+#: sam-martin-importer/sam-martin-importer.php:1130
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+"Bonjour ! Téléchargez votre fichier WordPress étendu RSS (WXR) et nous "
+"allons importer les articles, pages, commentaires, champs personnalisés, les "
+"catégories et les tags dans ce site."
+
+#: sam-martin-importer/sam-martin-importer.php:1131
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+"Choisissez un fichier WXR (.xml) à télécharger, puis cliquez sur : "
+"Télécharger un fichier et l'importer."
+
+#: sam-martin-importer/sam-martin-importer.php:1205
+msgid ""
+"Import <strong>posts, pages, comments, custom fields, categories, and tags</"
+"strong> from a WordPress export file."
+msgstr ""
+
+#: sam-martin-theme-functions.php:58
+msgid ""
+"<strong>Visual Composer</strong> is not installed or activated. Please "
+"install/activate <strong>Visual Composer</strong>, and try again."
+msgstr ""
+
+#: shortcodes/availability-calendar.php:9
+#: shortcodes/availability-calendar.php:10
+msgid "Potenza Availability Calendar"
+msgstr ""
+
+#: shortcodes/availability-calendar.php:15
+#: shortcodes/custom_shadow_heading.php:14 shortcodes/features.php:14
+#: shortcodes/list.php:15 shortcodes/services.php:14
+#: shortcodes/skills-bar.php:15 shortcodes/social-icon.php:14
+#: shortcodes/typer.php:15
+msgid "Potenza"
+msgstr ""
+
+#: shortcodes/availability-calendar.php:22
+msgid "Calendar Info"
+msgstr ""
+
+#: shortcodes/availability-calendar.php:31
+msgid "Date"
+msgstr "Date"
+
+#: shortcodes/availability-calendar.php:34
+msgid "Enter date."
+msgstr "Entrer la date"
+
+#: shortcodes/availability-calendar.php:39 shortcodes/services.php:145
+msgid "Description"
+msgstr "La description"
+
+#: shortcodes/availability-calendar.php:41 shortcodes/list.php:166
+msgid "Define item content. <br/>HTML markup is supported."
+msgstr "Définir le contenu de l’élément.<br>Balisage HTML est prise en charge."
+
+#: shortcodes/availability-calendar.php:47
+msgid "Add description for what you will do on above mentioned date."
+msgstr ""
+"Ajouter la description de ce que vous ferez sur ci-dessus date mentionnée."
+
+#: shortcodes/availability-calendar.php:54
+msgid "CSS Box"
+msgstr "CSS personnalisée"
+
+#: shortcodes/availability-calendar.php:56 shortcodes/skills-bar.php:65
+msgid "Design Options"
+msgstr ""
+
+#: shortcodes/availability-calendar.php:123
+msgid "Today"
+msgstr "Aujourd’hui"
+
+#: shortcodes/availability-calendar.php:124
+msgid "Sorry. I am not available on those days"
+msgstr "Désolé. Je ne suis pas disponible à ces dates"
+
+#: shortcodes/availability-calendar.php:125
+msgid "All other days i am available"
+msgstr "Tous les autres jours, je suis disponible"
+
+#: shortcodes/custom_shadow_heading.php:8
+#: shortcodes/custom_shadow_heading.php:9
+msgid "Potenza Custom Shadow Heading"
+msgstr ""
+
+#: shortcodes/custom_shadow_heading.php:21
+#: shortcodes/custom_shadow_heading.php:50 shortcodes/features.php:136
+#: shortcodes/features.php:139 shortcodes/services.php:136
+#: shortcodes/services.php:139
+msgid "Title"
+msgstr "Titre"
+
+#: shortcodes/custom_shadow_heading.php:22 shortcodes/features.php:137
+msgid "Enter title."
+msgstr "Entrer le titre."
+
+#: shortcodes/custom_shadow_heading.php:29
+#: shortcodes/custom_shadow_heading.php:51 shortcodes/features.php:159
+msgid "Sub Title"
+msgstr "Sous-Titre"
+
+#: shortcodes/custom_shadow_heading.php:30
+msgid "Enter Sub Title."
+msgstr "Entrez le sous-titre ."
+
+#: shortcodes/features.php:8 shortcodes/features.php:9
+msgid "Potenza Features"
+msgstr ""
+
+#: shortcodes/features.php:19 shortcodes/list.php:36 shortcodes/services.php:19
+msgid "Icon library"
+msgstr ""
+
+#: shortcodes/features.php:21 shortcodes/list.php:38 shortcodes/services.php:21
+msgid "Font Awesome"
+msgstr ""
+
+#: shortcodes/features.php:22 shortcodes/list.php:39 shortcodes/services.php:22
+msgid "Open Iconic"
+msgstr ""
+
+#: shortcodes/features.php:23 shortcodes/list.php:40 shortcodes/services.php:23
+msgid "Typicons"
+msgstr ""
+
+#: shortcodes/features.php:24 shortcodes/list.php:41 shortcodes/services.php:24
+msgid "Entypo"
+msgstr ""
+
+#: shortcodes/features.php:25 shortcodes/list.php:42 shortcodes/services.php:25
+msgid "Linecons"
+msgstr ""
+
+#: shortcodes/features.php:27 shortcodes/list.php:44 shortcodes/services.php:27
+msgid "Mono Social"
+msgstr ""
+
+#: shortcodes/features.php:30 shortcodes/list.php:47 shortcodes/services.php:30
+msgid "Select icon library."
+msgstr ""
+
+#: shortcodes/features.php:34 shortcodes/features.php:51
+#: shortcodes/features.php:68 shortcodes/features.php:85
+#: shortcodes/features.php:101 shortcodes/features.php:118
+#: shortcodes/list.php:55 shortcodes/list.php:72 shortcodes/list.php:89
+#: shortcodes/list.php:106 shortcodes/list.php:122 shortcodes/list.php:139
+#: shortcodes/services.php:34 shortcodes/services.php:51
+#: shortcodes/services.php:68 shortcodes/services.php:85
+#: shortcodes/services.php:101 shortcodes/services.php:118
+msgid "Icon"
+msgstr ""
+
+#: shortcodes/features.php:47 shortcodes/features.php:64
+#: shortcodes/features.php:81 shortcodes/features.php:114
+#: shortcodes/features.php:130 shortcodes/list.php:68 shortcodes/list.php:85
+#: shortcodes/list.php:102 shortcodes/list.php:135 shortcodes/list.php:151
+#: shortcodes/services.php:47 shortcodes/services.php:64
+#: shortcodes/services.php:81 shortcodes/services.php:114
+#: shortcodes/services.php:130
+msgid "Select icon from library."
+msgstr ""
+
+#: shortcodes/features.php:145
+msgid "Title Type"
+msgstr ""
+
+#: shortcodes/features.php:148
+msgid "H2"
+msgstr ""
+
+#: shortcodes/features.php:149
+msgid "H3"
+msgstr ""
+
+#: shortcodes/features.php:150
+msgid "H4"
+msgstr ""
+
+#: shortcodes/features.php:151
+msgid "H5"
+msgstr ""
+
+#: shortcodes/features.php:152
+msgid "H6"
+msgstr ""
+
+#: shortcodes/features.php:160
+msgid "Enter sub title."
+msgstr ""
+
+#: shortcodes/list.php:9 shortcodes/list.php:10
+msgid "Potenza List"
+msgstr ""
+
+#: shortcodes/list.php:20
+msgid "Style"
+msgstr ""
+
+#: shortcodes/list.php:23
+msgid "Style 1"
+msgstr ""
+
+#: shortcodes/list.php:24
+msgid "Style 2"
+msgstr ""
+
+#: shortcodes/list.php:25
+msgid "Style 3"
+msgstr ""
+
+#: shortcodes/list.php:27
+msgid "Select style."
+msgstr ""
+
+#: shortcodes/list.php:31
+msgid "Add icon?"
+msgstr ""
+
+#: shortcodes/list.php:157 shortcodes/skills-bar.php:34 shortcodes/typer.php:22
+msgid "List"
+msgstr ""
+
+#: shortcodes/list.php:164
+msgid "Content"
+msgstr "Contenu"
+
+#: shortcodes/recent-posts.php:78
+msgid "Read More.."
+msgstr "Lire la suite..."
+
+#: shortcodes/services.php:8 shortcodes/services.php:9
+msgid "Potenza Services"
+msgstr ""
+
+#: shortcodes/services.php:137
+msgid "Enter service title."
+msgstr ""
+
+#: shortcodes/services.php:146
+msgid "Enter service description."
+msgstr ""
+
+#: shortcodes/services.php:148
+msgid "I am description box. Click edit button to change this text."
+msgstr ""
+
+#: shortcodes/services.php:154
+msgid "Button Text"
+msgstr ""
+
+#: shortcodes/services.php:155
+msgid "Enter button text."
+msgstr ""
+
+#: shortcodes/services.php:160
+msgid "URL (Link)"
+msgstr ""
+
+#: shortcodes/services.php:162
+msgid "Add custom link."
+msgstr ""
+
+#: shortcodes/services.php:189
+msgid "Service"
+msgstr ""
+
+#: shortcodes/services.php:191
+msgid "Read More"
+msgstr "Lire la suite"
+
+#: shortcodes/skills-bar.php:9 shortcodes/skills-bar.php:10
+msgid "Potenza Skill Bar"
+msgstr ""
+
+#: shortcodes/skills-bar.php:21
+msgid "Select Skils Style"
+msgstr ""
+
+#: shortcodes/skills-bar.php:23
+msgid "Select skils style."
+msgstr ""
+
+#: shortcodes/skills-bar.php:25
+msgid "Skil Bar"
+msgstr ""
+
+#: shortcodes/skills-bar.php:26
+msgid "Skill Circle"
+msgstr ""
+
+#: shortcodes/skills-bar.php:42
+msgid "Bar Label"
+msgstr ""
+
+#: shortcodes/skills-bar.php:43
+msgid "Enter bar label."
+msgstr ""
+
+#: shortcodes/skills-bar.php:50
+msgid "Bar Percent"
+msgstr ""
+
+#: shortcodes/skills-bar.php:56
+msgid "Enter value for graph (Note: choose range from 0 to 100). "
+msgstr ""
+
+#: shortcodes/skills-bar.php:63
+msgid "CSS box"
+msgstr ""
+
+#: shortcodes/skills-bar.php:69
+msgid "Tab ID"
+msgstr ""
+
+#: shortcodes/skills-bar.php:143
+msgid "Newbie"
+msgstr "Débutant"
+
+#: shortcodes/skills-bar.php:144
+msgid "Decent"
+msgstr "Correct"
+
+#: shortcodes/skills-bar.php:145
+msgid "Pretty Good"
+msgstr "Assez bon"
+
+#: shortcodes/skills-bar.php:146
+msgid "Master"
+msgstr "Expert"
+
+#: shortcodes/social-icon.php:8 shortcodes/social-icon.php:9
+msgid "Potenza Social Icon"
+msgstr ""
+
+#: shortcodes/social-icon.php:21
+msgid "Facebook"
+msgstr ""
+
+#: shortcodes/social-icon.php:22
+msgid "Enter facebook link."
+msgstr ""
+
+#: shortcodes/social-icon.php:29
+msgid "Twitter"
+msgstr ""
+
+#: shortcodes/social-icon.php:30
+msgid "Enter twitter link."
+msgstr ""
+
+#: shortcodes/social-icon.php:37
+msgid "Dribbble"
+msgstr ""
+
+#: shortcodes/social-icon.php:38
+msgid "Enter dribbble link."
+msgstr ""
+
+#: shortcodes/social-icon.php:45
+msgid "Vimeo"
+msgstr ""
+
+#: shortcodes/social-icon.php:46
+msgid "Enter vimeo link."
+msgstr ""
+
+#: shortcodes/social-icon.php:53
+msgid "Pinterest"
+msgstr ""
+
+#: shortcodes/social-icon.php:54
+msgid "Enter pinterest link."
+msgstr ""
+
+#: shortcodes/social-icon.php:61
+msgid "Behance"
+msgstr ""
+
+#: shortcodes/social-icon.php:62
+msgid "Enter behance link."
+msgstr ""
+
+#: shortcodes/social-icon.php:69
+msgid "Linkedin"
+msgstr ""
+
+#: shortcodes/social-icon.php:70
+msgid "Enter linkedin link."
+msgstr ""
+
+#: shortcodes/typer.php:9 shortcodes/typer.php:10
+msgid "Potenza Typer"
+msgstr ""
+
+#: shortcodes/typer.php:30
+msgid "Typer Title"
+msgstr ""
+
+#: shortcodes/typer.php:31
+msgid "Enter typing title."
+msgstr ""
+
+#: shortcodes/vc_row.php:13
+msgid "Background settings"
+msgstr ""
+
+#: shortcodes/vc_row.php:17 shortcodes/vc_row.php:25 shortcodes/vc_row.php:39
+#: shortcodes/vc_row.php:48 shortcodes/vc_row.php:66
+msgid "Background options"
+msgstr ""
+
+#: shortcodes/vc_row.php:23
+msgid "Background Type"
+msgstr ""
+
+#: shortcodes/vc_row.php:27
+msgid "Color Overlay"
+msgstr ""
+
+#: shortcodes/vc_row.php:28
+msgid "Grdient"
+msgstr ""
+
+#: shortcodes/vc_row.php:33
+msgid "Opacity"
+msgstr ""
+
+#: shortcodes/vc_row.php:40
+msgid ""
+"Enter value between 0 to 100 (0 is maximum transparency, while 100 is "
+"minimum)"
+msgstr ""
+
+#: shortcodes/vc_row.php:45
+msgid "Overlay color"
+msgstr ""
+
+#: shortcodes/vc_row.php:47
+msgid "Select overlay color."
+msgstr ""
+
+#: shortcodes/vc_row.php:57
+msgid "Gradient"
+msgstr ""
+
+#: shortcodes/vc_row.php:59
+msgid ""
+"Define gradient style:<br>- choose starting and ending colors;<br>- position "
+"of both colors (smooth or sharp color transition);<br>- angle of color "
+"transition;<br>- linear or radial gradient type.<br><br>All changes are "
+"displayed in the preview box on the right."
+msgstr ""
+
+#: vc_custom/vc_params/vc_gradient.php:59
+msgid "From"
+msgstr "De"
+
+#: vc_custom/vc_params/vc_gradient.php:60
+msgid "To"
+msgstr "À"
+
+#: vc_custom/vc_params/vc_gradient.php:65
+msgid "Position: "
+msgstr "Fonction :"
+
+#: vc_custom/vc_params/vc_gradient.php:69
+msgid "Angle: "
+msgstr ""
+
+#: vc_custom/vc_params/vc_gradient.php:73
+msgid "Radial"
+msgstr ""
