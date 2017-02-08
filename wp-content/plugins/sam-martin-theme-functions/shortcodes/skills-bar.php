@@ -24,7 +24,7 @@ function sam_martin_theme_functions_vc_component_sm_skillsbar() {
 					'value'     => array(
 						esc_html__( 'Skil Bar', 'smtf' )    => 'skil_bar',
 						esc_html__( 'Skill Circle', 'smtf' )=> 'skil_circle',
-					
+					    esc_html__( 'Skill autre', 'smtf' )=> 'skil_autre',
 					),
 				),
 				array(
@@ -153,7 +153,7 @@ function sam_martin_theme_functions_shortcode_sm_skillsbar( $atts ){
 			<?php foreach( $list_items as $list_item ){?>
 			<div class="col-lg-3 col-md-3 col-sm-3">
 				<div class="chart-bar">  
-					<div data-percent="<?php echo esc_attr($list_item['bar_percent']);?>" class="chart" data-barcolor='<?php echo esc_attr($sam_martin_options['primary_color']); ?>'>
+					<div data-percent="<?php echo esc_attr($list_item['bar_percent']);?>" class="chart3" data-barcolor='<?php echo esc_attr($sam_martin_options['primary_color']); ?>'>
 						<span class="percent"></span>
 					</div>
 					<h3><?php echo esc_html($list_item['bar_label']);?></h3>
@@ -161,6 +161,11 @@ function sam_martin_theme_functions_shortcode_sm_skillsbar( $atts ){
 			</div>
 			<?php }?>
 		</div>
+
+
+
+
+
 	<?php
 	}
 	return ob_get_clean();

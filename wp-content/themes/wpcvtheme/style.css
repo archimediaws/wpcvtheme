@@ -2190,6 +2190,58 @@ blockquote {
   left: 0;
 }
 
+.chart2 {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.chart2 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.chart3 {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.chart3 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+.chart4 {
+  position: relative;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.chart4 canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+
+
+
+
+
 .percent {
   display: inline-block;
   line-height: 150px;

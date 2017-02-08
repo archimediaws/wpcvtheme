@@ -39,7 +39,11 @@ $categories = sam_martin_post_taxonomy( get_the_ID() ,get_post_type());
 				<?php the_excerpt()?>
 			
 				<div class="blog-bottom clearfix">
+<<<<<<< master
 					<div class="button-small"><a href="<?php the_permalink()?>"><?php esc_html_e('lire la suite..','wpcvtheme');?></a></div>
+=======
+					<div class="button-small"><a href="<?php the_permalink()?>"><?php esc_html_e('Lire la suite..','wpcvtheme');?></a></div>
+>>>>>>> some changes
 					<?php do_action('sam_martin_social_share',get_the_ID());?>
 				</div>
 			</div>
