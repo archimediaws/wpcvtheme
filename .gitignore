@@ -12,3 +12,5 @@ wp-content/uploads/
 wp-content/dploy\.yaml
 
 wp-content/themes/dploy\.yaml
+
+wp-content/themes/wpcvtheme/dploy\.yaml
